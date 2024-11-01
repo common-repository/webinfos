@@ -1,0 +1,68 @@
+.droppable {
+	border: 1px solid black;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#fff;
+	padding: 75px;
+}
+.dragover {
+	border: 1px solid red;
+}
+.info_msg {
+	color:green;	
+}
+.warning_msg {
+	color:red;	
+}
+.feedback_container {
+	display:inline-table;
+	width:49%;
+}
+.feedback {
+	position:fixed;
+	border:1px solid #fff;
+	padding-left:25px;
+	padding-right:25px;	
+}
+.webinfos_options_container {
+	display:inline-table;
+	width:50%
+}
+.hide {
+	display:none;
+}
+textarea {
+    resize: none;
+}
+.contact_title {
+	font-size:14px;
+}
+.contact_phone {
+	margin-bottom:0px;
+}
+.contact_email {
+	margin-top:0px;	
+}
+.custommenu {
+	background-color:#23282d;
+}
+.custombutton {
+	color:#fff;
+	width:100px;
+	text-align:center;
+	display:table-cell;
+	cursor:pointer;
+}
+.custombuttonused {
+	background: #32373c none repeat scroll 0 0;
+    color: #00b9eb;
+	width:100px;
+	text-align:center;
+	display:table-cell;
+	cursor:pointer;
+}
+.custombutton:hover {
+	background: #32373c none repeat scroll 0 0;
+    color: #00b9eb;
+}
